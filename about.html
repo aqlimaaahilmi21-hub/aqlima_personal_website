@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+	p,h3
+	{
+		font-family: monospace;
+		text-align: center;
+
+
+	}
+	body 
+	{
+		background-image: url(image/pink.png);
+	}
+
+table {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: monospace;
+}
+
+th, td {
+    border: 1px solid ;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: lightpink;
+    text-align: center;
+}
+button
+{
+	font-family: monospace;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+    <div class="navbar">
+        <h2>My Website</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="interest.html">My Interest</a>
+        <a href="education.html">Education</a>
+        <a href="photo.html">Photo Dump</a>
+    </div>
+
+    <div class="about">
+
+<h3>Get to know me!</h3>
+ <p>
+	
+
+<script>
+
+	function myImage(a)
+	{
+		var pict;
+		if(a==1)
+		{
+			pict="image/me.jpg"
+		}
+		else
+		{
+           pict="image/family.jpg"
+		}
+		document.getElementById('gambar').src=pict;
+	}
+	
+</script>
+
+
+
+<img src="image/me.jpg" width="150" height="170" id="gambar">
+
+	<p>
+	<button type="button" onclick="myImage(1)">me, Aqlima >< </button>
+	<button type="button" onclick="myImage(3)">beloved family</button>
+	</p>
+
+	</p>
+
+<table>
+    <tr>
+        <th colspan="2">Personal Information</th>
+    </tr>
+    <tr>
+        <td><b>Name</b></td>
+        <td>Nur Aqlima Binti Mohd Hilmi</td>
+    </tr>
+    <tr>
+        <td><b>Call Me</b></td>
+        <td>Ima</td>
+    </tr>
+    <tr>
+        <td><b>Date of Birth</b></td>
+        <td>24 / 4 / 2005</td>
+    </tr>
+    <tr>
+        <td><b>Number of Siblings</b></td>
+        <td>6 out of 6</td>
+    </tr>
+</table>
+
+<p style="background-color: lightpink; padding:10px; text-align:center;">
+I’m the youngest in a family of six siblings with a twin of the opposite gender, an older sister and four older brothers. Growing up in a big family has been fun and sometimes chaotic but it’s also taught me a lot about patience and getting along with different personalities. Both of my parents are primary school teachers. so, learning and curiosity have always been a big part of my life.Two of my siblings are already married which makes family gatherings even more interesting and lively. I was born at HUSM Kubang Kerian, but I’ve lived in Besut my whole life and it’s really where I feel at home. Being the youngest means I’ve always had people to look up to and sometimes compete with but it also means I’ve learned to speak up for myself and find my own place in the family.Living with such a big family has definitely shaped who I am today. I’ve learned how to balance fun with responsibility, how to be supportive but independent and most importantly, how to appreciate the little moments with the people you love.
+</p>
+<audio controls>
+	<source src="audio/song.mp3" type="audio/mp3">
+		Your browser does not support audio element
+</audio>
+
+<div class="map-section" style="text-align: center; margin-top: 20px;">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508217.4933851609!2d102.24661884062715!3d5.647968164823481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6fb1d3360bc47%3A0x5cccd6afdb30cd01!2sBesut%20District%2C%20Terengganu!5e0!3m2!1sen!2smy!4v1767883397540!5m2!1sen!2smy" 
+        width="80%" 
+        height="400" 
+        style="border:0; border-radius:12px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <p style="font-family: monospace; margin-top: 10px;">This is where I live </p>
+</div>
+</body>
+</html>
